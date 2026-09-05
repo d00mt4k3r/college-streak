@@ -28,7 +28,7 @@
 
 export const ACHIEVEMENTS = [
   // ==================== 🔥 СТРИК ====================
-  { id: "streak_1", title: "Первый шаг", description: "Продержаться 1 учебный день подряд", icon: "streak", category: "streak", rewardXP: 10000, condition: { type: "streakBest", value: 1 } },
+  { id: "streak_1", title: "Первый шаг", description: "Продержаться 1 учебный день подряд", icon: "streak", category: "streak", rewardXP: 10, condition: { type: "streakBest", value: 1 } },
   { id: "streak_3", title: "Главное — ввязаться", description: "Продержаться 3 дня подряд", icon: "streak", category: "streak", rewardXP: 20, condition: { type: "streakBest", value: 3 } },
   { id: "streak_5", title: "Это мы одобряем", description: "Продержаться 5 дней подряд", icon: "streak", category: "streak", rewardXP: 30, condition: { type: "streakBest", value: 5 } },
   { id: "streak_7", title: "Выжил в будни", description: "Продержаться 7 дней подряд", icon: "streak", category: "streak", rewardXP: 50, condition: { type: "streakBest", value: 7 } },
